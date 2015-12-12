@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0A5E76611C149F250064D09A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E76601C149F250064D09A /* AppDelegate.swift */; };
-		0A5E76631C149F250064D09A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E76621C149F250064D09A /* FirstViewController.swift */; };
-		0A5E76651C149F250064D09A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E76641C149F250064D09A /* SecondViewController.swift */; };
 		0A5E76681C149F250064D09A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E76661C149F250064D09A /* Main.storyboard */; };
 		0A5E766A1C149F250064D09A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E76691C149F250064D09A /* Assets.xcassets */; };
 		0A5E766D1C149F250064D09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A5E766B1C149F250064D09A /* LaunchScreen.storyboard */; };
-		0A5E76751C149F790064D09A /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5E76741C149F790064D09A /* TestTableViewController.swift */; };
 		0A7215401C17967F00FC3679 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A72153F1C17967F00FC3679 /* RegisterViewController.swift */; };
 		0A7215421C17A6A700FC3679 /* ClientRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7215411C17A6A700FC3679 /* ClientRepository.swift */; };
 		0A7215461C17BCFD00FC3679 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A7215451C17BCFD00FC3679 /* LoginViewController.swift */; };
@@ -26,13 +23,10 @@
 /* Begin PBXFileReference section */
 		0A5E765D1C149F250064D09A /* Loopback-Swift-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loopback-Swift-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A5E76601C149F250064D09A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A5E76621C149F250064D09A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		0A5E76641C149F250064D09A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		0A5E76671C149F250064D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A5E76691C149F250064D09A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A5E766C1C149F250064D09A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0A5E766E1C149F250064D09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0A5E76741C149F790064D09A /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		0A5E76781C14A41B0064D09A /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
 		0A72153F1C17967F00FC3679 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		0A7215411C17A6A700FC3679 /* ClientRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientRepository.swift; sourceTree = "<group>"; };
@@ -79,9 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				0A5E76601C149F250064D09A /* AppDelegate.swift */,
-				0A5E76621C149F250064D09A /* FirstViewController.swift */,
-				0A5E76741C149F790064D09A /* TestTableViewController.swift */,
-				0A5E76641C149F250064D09A /* SecondViewController.swift */,
 				0A5E76661C149F250064D09A /* Main.storyboard */,
 				0A5E76781C14A41B0064D09A /* Swift-Bridging-Header.h */,
 				0A5E76691C149F250064D09A /* Assets.xcassets */,
@@ -240,12 +231,9 @@
 				0A750D8B1C19FB6D00F48A50 /* InputAlertController.swift in Sources */,
 				0A7215421C17A6A700FC3679 /* ClientRepository.swift in Sources */,
 				0A72154A1C17C20600FC3679 /* AccountViewController.swift in Sources */,
-				0A5E76651C149F250064D09A /* SecondViewController.swift in Sources */,
 				0A750D871C19D4F000F48A50 /* BackendUtilities.swift in Sources */,
 				0A7215401C17967F00FC3679 /* RegisterViewController.swift in Sources */,
 				0A5E76611C149F250064D09A /* AppDelegate.swift in Sources */,
-				0A5E76631C149F250064D09A /* FirstViewController.swift in Sources */,
-				0A5E76751C149F790064D09A /* TestTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
