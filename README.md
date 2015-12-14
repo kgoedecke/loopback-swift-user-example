@@ -6,10 +6,19 @@ Example user auth and management app in Swift using the LoopBack iOS SDK
 2. Fully written in Swift
 3. Features: register new users, login/logout, display user details, edit user details
 
-## Requirements
-- Running LoopBack Backend
-- A model based on the User class named "Client"
+## Screenshots
+<img src="https://cloud.githubusercontent.com/assets/5519740/11777809/ef47ba8e-a250-11e5-9668-bdb4692b2644.jpg" width="210">
+<img src="https://cloud.githubusercontent.com/assets/5519740/11777677/377e776c-a250-11e5-9d45-25a44b184257.jpg" width="210">
+<img src="https://cloud.githubusercontent.com/assets/5519740/11777817/f5de92a0-a250-11e5-8988-c07b524027dd.jpg" width="210">
+<img src="https://cloud.githubusercontent.com/assets/5519740/11777815/f3bde2fa-a250-11e5-8c12-29bcd1d29676.jpg" width="210">
+
+## Usage
+- Create a LoopBack app that contains a model named "Client" based on the User class
+- Deploy your LoopBack Backend
+- Insert your LoopBack API URL into the projects AppDelegate.swift
+
+## Tutorial
+- [KevinGoedecke.me - Tutorial: LoopBack iOS User Management App using Swift](http://kevingoedecke.me/2015/12/11/tutorial-ios-user-management-app-using-swift-loopback)
 
 ## ToDos
-- Detailed tutorial on my blog is in the making
-- Provide example Loopback app
+- Provide example Loopback app for this project
