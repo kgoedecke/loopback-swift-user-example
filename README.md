@@ -13,12 +13,8 @@ Example user auth and management app in Swift using the LoopBack iOS SDK
 <img src="https://cloud.githubusercontent.com/assets/5519740/11777815/f3bde2fa-a250-11e5-8c12-29bcd1d29676.jpg" width="210">
 
 ## Usage
-- Create a LoopBack app that contains a model named "Client" based on the User class
-- Deploy your LoopBack Backend
+- Deploy LoopBack Testing Backend, available here: [LoopBack Test App](https://github.com/kgoedecke/loopback-swift-user-example/tree/master/Loopback-Swift-Example-Tests/server)
 - Insert your LoopBack API URL into the projects AppDelegate.swift
 
 ## Tutorial
 - [KevinGoedecke.me - Tutorial: LoopBack iOS User Management App using Swift](http://kevingoedecke.me/2015/12/11/tutorial-ios-user-management-app-using-swift-loopback)
-
-## ToDos
-- Provide example Loopback app for this project
