@@ -27,7 +27,7 @@ class RegisterViewController: UIViewController {
         
             user.saveWithSuccess({ () -> Void in
                 NSLog("Successfully registered new user with User ID: ")
-                NSLog(user._id as! String)
+                NSLog(String(user._id as! Int))
             
                 // Display registration confirmation
                 let alertController = UIAlertController(title: "Registration", message:
