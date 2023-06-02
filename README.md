@@ -17,4 +17,4 @@ Example user auth and management app in Swift using the LoopBack iOS SDK
 - Insert your LoopBack API URL into the projects AppDelegate.swift
 
 ## Tutorial
-- [KevinGoedecke.me - Tutorial: LoopBack iOS User Management App using Swift](http://kevingoedecke.me/2015/12/11/tutorial-ios-user-management-app-using-swift-loopback)
+- [KevinGoedecke.com - Tutorial: LoopBack iOS User Management App using Swift](http://kevingoedecke.com/2015/12/11/tutorial-ios-user-management-app-using-swift-loopback)
